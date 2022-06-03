@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps:wght@700&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps:wght@700&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="home.css">
+    <title>Ayaan | About_Me </title>
+    <!-- ICON -->
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon" class="icon">
+</head>
+
+<body>
+    <div class="container">
+        <img src="Images/menu-btn.png" alt="Menu-Icons" srcset="" class="menu" onclick="togglemenu()">
+        <div class="navBar" id="navBarId">
+            <img src="Images/logo.jpg" alt="This is Logo" class="logo">
+            <ul>
+                <li><a href="index.html" data-text="Home">Home</a></li>
+                <li><a href="#" data-text="Blogs">Blogs</a></li>
+                <li><a href="Projects.html" data-text="Projects">Projects</a></li>
+                <li><a href="Contact.html" data-text="Contact Me">Contact Me</a></li>
+                <li><a href="AboutMe.html" data-text="About Me">About Me</a></li>
+            </ul>
+        </div>
+
+        <div class="aboutMyself">
+            <div class="img">
+                <img src="Images/MySelf/MySelf.jpg" alt="Vivek Kalal" srcset="">
+            </div>
+            <h1>Vivek A. Kalal</h1>
+
+            <div class="intro">
+                <h4>I am 20 Year old coding Enthusiast . Always try to Discover new Technologies
+                    and Make Attractive Projects with them.
+                    I've made projects in JavaSE , HTML CSS & JS , Machine Learning  
+                </h4>
+                <h4 class="skill">Skills</h4>
+                <ul>
+                    <li>UI/UX Developer</li>
+                    <li>Java Developer</li>
+                    <li>Web Developer</li>
+                    <li>JavFX Developer</li>
+                </ul>  
+        </div>
+        </div>
+    </div>
+</body>
+<script>
+    var navBar = document.getElementById('navBarId');
+
+    // navBar.style.maxHeight = "0px";
+
+    function togglemenu() {
+        if (navBar.style.maxHeight == "0px") {
+            navBar.style.maxHeight = "225px"
+        }
+        else {
+            navBar.style.maxHeight = "0px"
+        }
+        console.log("Clicked");
+    }
+</script>
+
+</html>

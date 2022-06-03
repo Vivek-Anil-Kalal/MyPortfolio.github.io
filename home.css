@@ -346,4 +346,54 @@ section p{
     .AsteroidImages{
         margin: 15% 0;
     }
+
+}
+
+                  /*************************************
+****************** *            About_Me               * ******************
+                   *************************************/
+
+.aboutMyself{
+    margin: 20px 0;
+    border: 1px solid #00c6ff;
+    border-radius: 15px;
+}
+
+.img img{
+    margin: 20px 40%;
+    width: 20%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMyself h1{
+    font-size: 3.5vw;
+    text-align: center;
+    color: #E4F8FF;
+}
+
+.intro{
+    margin: 15px 10%;
+}
+
+.intro h4 , li{
+    font-family: sans-serif;
+    color: #E4F8FF;
+}
+
+.intro h3{
+    margin-top: 10px;
+}
+
+.skill{
+    font-size: 2vw;
+    margin: 10px 0;
+}
+@media only screen and (max-width:1000px) {
+    .aboutMyself h1{
+        font-size: 4vw;
+    }
+    .skill{
+        font-size: 5vw;
+    }
 }
